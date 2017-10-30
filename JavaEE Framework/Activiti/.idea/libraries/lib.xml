@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/activiti-diagram-rest-5.22.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-core-2.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/activiti-explorer-5.22.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-databind-2.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/joda-time-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/activiti-modeler-5.22.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/activiti-osgi-5.22.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang3-3.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/activiti-process-validation-5.22.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.40-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-annotations-2.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/activiti-bpmn-model-5.22.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/activiti-image-generator-5.22.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mybatis-3.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/activiti-bpmn-converter-5.22.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/activiti-bpmn-layout-5.22.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/activiti-engine-5.22.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-2.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
