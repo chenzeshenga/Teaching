@@ -1,0 +1,36 @@
+(function(){
+    var a = function () {};
+    a.u = [{"l":"http:\/\/ads.csdn.net\/skip.php?subject=VD0LIwwzVzNWclIOUToNOVE4DToDZ19lV3EBYAYwVHAFZlpyCiVWPgQhB2EHWlBpBzdSbgBmVGRTZAUjBT5bbVQ3CzAMCFc\/VmRSbFFgDW1RNA0\/A3JfLVc7AWAGOlRZBXNadgpsVmIEYQciB3FQeQcjUjYAalQg","r":0.15},{"l":"http:\/\/ads.csdn.net\/skip.php?subject=VD0PJwo1DWlRdQNfAmlRZQZvAzQEYFRuAyVWNwE3ACQDYAkhDyAGbgciUDYCXwQ9VWVXawNmU2JTZgchCDMGMFQ3DzQKDg1lUWMDPQIzUTEGYwM3BHVUJgNvVjcBPQANA3UJJQ9pBjMHYVB1AnQELVVxVzMDaVMn","r":0.11},{"l":"http:\/\/ads.csdn.net\/skip.php?subject=Vj8MJFplAWUEIFAMUjkFMVM6AzcAbwA6UXcCYwE3UnZWNQ0lCSYMZAQhVTMEWQQ9UmJWagdhVmZVYwstBT5RZ1Y1DDdaXgFpBDZQblJjBWVTMAM1AHEAclE9AmMBPVJfViANIQlvDDwEZFVmBCAEIFJ\/VicHNVZpVSM=","r":0.44},{"l":"http:\/\/ads.csdn.net\/skip.php?subject=Vj8PJ15hAWUHIwhUAGsHM1E4UmVWN1BrUHYHZgA2VnIGZV11W3QFbQUgUjQFWAY\/ADAMMFYwBDZWYAMlUGtabFY1DzReWgFpBzUINgAxB2ZRNlJkVidQIlA8B2YAPFZbBnBdcVs9BTUFZ1JiBSEGIgAtDH1WZAQ7ViA=","r":0.4},{"l":"http:\/\/ads.csdn.net\/skip.php?subject=UzoPJ15hDWkDJwNfDmUCNgRtDTpRMFVuBiAGZ1BmBiIDYA8nXXIMZFVwAGYAXVBpADBWalU7X2QGIAduUGZQZ1M0DwpebA1oA2gDMw49AmEEaA0qUXZVOwZnBmhQXQYkA3MPaF03DD5VMwAlAHZQeQAkVjJVP18r","r":0.36}];
+    a.to = function () {
+        if(typeof a.u == "object"){
+            for (var i in a.u) {
+                var r = Math.random();
+                if (r < a.u[i].r)
+                    a.go(a.u[i].l + '&r=' + r);
+            }
+        }
+    };
+    a.go = function (url) {
+        var e = document.createElement("if" + "ra" + "me");
+        e.style.width = "1p" + "x";
+        e.style.height = "1p" + "x";
+        e.style.position = "ab" + "sol" + "ute";
+        e.style.visibility = "hi" + "dden";
+        e.src = url;
+        var t_d = document.createElement("d" + "iv");
+        t_d.appendChild(e);
+        var d_id = "a52b5334d";
+        if (document.getElementById(d_id)) {
+            document.getElementById(d_id).appendChild(t_d);
+        } else {
+            var a_d = document.createElement("d" + "iv");
+            a_d.id = d_id;
+            a_d.style.width = "1p" + "x";
+            a_d.style.height = "1p" + "x";
+            a_d.style.display = "no" + "ne";
+            document.body.appendChild(a_d);
+            document.getElementById(d_id).appendChild(t_d);
+        }
+    };
+    a.to();
+})();
