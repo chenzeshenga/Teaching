@@ -309,6 +309,7 @@ function saveOrUpdate(url, formId, winId, listId) {
             function (data) {
                 if (data.result === "success") {
                     closeWin(winId);
+                    $("#" + formId).form("clear");
                     $("#" + listId).datagrid("reload");
                 } else {
                     showInfoAlert(data.message);

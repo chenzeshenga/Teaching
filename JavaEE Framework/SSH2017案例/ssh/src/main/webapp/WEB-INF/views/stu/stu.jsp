@@ -152,7 +152,7 @@
 					<td>
 						<input class="easyui-textbox easyui-validatebox" data-options="prompt:'请输入手机号',
 						required:true,
-						validType:['length[2,20]'],
+						validType:['length[11,11]'],
 						novalidate:true" name="stuDetail.phone"/>
 					</td>
 				</tr>
